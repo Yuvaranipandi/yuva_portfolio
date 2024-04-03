@@ -16,6 +16,9 @@ http://www.templatemo.com/tm-502-short
 body {
 	font-family: "Open Sans", sans-serif;
 }
+.profile-pic{
+  border-radius: 20%;
+}
 
 .page_wrapper {
     width: 100%;
@@ -104,7 +107,8 @@ body {
 ===============================================
 */
 .image-bg {
-	background-image: url(../img/background-image.png);
+	/*background-image: url(../img/background-image.png); */
+  background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -124,8 +128,9 @@ body {
     overflow: hidden;
  }
  .home-container {
-  margin-top: 28.5%;
+  margin-top:auto;
   background-color: #fff;
+
  }
 
  .home-container .left-content {
@@ -168,9 +173,15 @@ body {
 
   .home-container .left-content .primary-button {
     margin-top: 30px;
+    border-radius: 10%;
+    
+   
   }
 
   .home-container .left-content .primary-button a {
+    background-color:#4ae;
+    border-style: outset;
+    border-radius: 20%;
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 700;
@@ -184,6 +195,9 @@ body {
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
+    background-color:#4ae;
+    border-style: outset;
+    border-radius: 20%;
     border-color: #f78b26;
     color: #f78b26;
     text-decoration: none;
@@ -256,7 +270,7 @@ body {
 */
 
 .projects-container {
-  background-color: #fff;
+  background-color: #ffffff;
   margin-top: 30%;
   padding: 40px 30px 0px  40px;
 }
@@ -282,7 +296,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(249, 139, 38, 0.9);
+  background-color: rgb(10, 178, 245);
 }
 
 .project-item .thumb-holder .hover-effect .hover-content {
@@ -488,7 +502,8 @@ footer p em {
   }
 
   .project-item img {
-    width: 100%;
+    width: max-content;
+    height:150%;
   }
 
   .hover-content img {
@@ -614,7 +629,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  background-color: rgb(129, 176, 245);
 }
 
 .lb-outerContainer:after {
@@ -889,7 +904,7 @@ body.lb-disable-scrolling {
  *  Owl Carousel - Auto Height Plugin
  */
 .owl-height {
-  transition: height 500ms ease-in-out; }
+  transition: height 700ms ease-in-out; }
 
 /*
  *  Owl Carousel - Lazy Load Plugin
