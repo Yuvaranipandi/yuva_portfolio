@@ -18,6 +18,7 @@ body {
 }
 .profile-pic{
   border-radius: 20%;
+  image: resolution 400px;
 }
 
 .page_wrapper {
@@ -110,9 +111,9 @@ body {
 	/*background-image: url(../img/background-image.png); */
   background-color: #fff;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     max-width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 
@@ -134,11 +135,12 @@ body {
  }
 
  .home-container .left-content {
-    padding-top: 25%;
+    padding-top: 0%;
     padding-left: 35px;
  }
 
  .home-container .left-content .left-line {
+  padding-top: 0%;
     width: 3px;
     height: 74px;
     background-color: #121212;
@@ -147,6 +149,7 @@ body {
  }
 
  .home-container .left-content h2 {
+  padding-top: 0%;
     font-size: 32px;
     letter-spacing: 0.5px;
     color: #121212;
@@ -156,11 +159,13 @@ body {
  }
 
   .home-container .left-content h2 em {
+    padding-top: 0%;
     font-style: normal;
     color: #f78b26;
   }
 
   .home-container .left-content p {
+    padding-top: 0%;
     margin-top: 30px;
     font-size: 14px;
     font-style: italic;
@@ -168,17 +173,20 @@ body {
   }
 
   .home-container .left-content p em {
+    padding-top: 0%;
     font-weight: 500;
   }
 
   .home-container .left-content .primary-button {
+    padding-top: 0%;
     margin-top: 30px;
-    border-radius: 10%;
+    border-radius: 20%;
     
    
   }
 
   .home-container .left-content .primary-button a {
+    padding-top: 0%;
     background-color:#4ae;
     border-style: outset;
     border-radius: 20%;
@@ -191,23 +199,26 @@ body {
   }
 
   .home-container .left-content .primary-button a:hover {
+    padding-top: 0%;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     background-color:#4ae;
     border-style: outset;
-    border-radius: 20%;
-    border-color: #f78b26;
-    color: #f78b26;
+    border-radius: 40%;
+    border-color: #290ec4;
+    color: #3426f7;
     text-decoration: none;
   }
 
    .home-container .right-content {
+    padding-top: 0%;
       margin-bottom: -1px;
    }
 
   .home-container .right-content img {
+    padding-top: 0%;
     overflow: hidden;
     width: 100%;
   }
